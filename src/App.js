@@ -14,7 +14,6 @@ function App() {
         avatar={user.avatar}
         stats={user.stats}
       />
-
       <Statistics title="Upload stats" stats={statisticalData} />
     </div>
   );
