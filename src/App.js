@@ -1,8 +1,20 @@
 import "./App.css";
-// import PropTypes from 'prop-types'
+import { Profile } from "./components/Profile/Profile";
+
+import user from "./components/Profile/user.json";
 
 function App() {
-  return <div className="App">Home work</div>;
+  return (
+    <div>
+      <Profile
+        name={user.name}
+        tag={user.tag}
+        location={user.location}
+        avatar={user.avatar}
+        stats={user.stats}
+      />
+    </div>
+  );
 }
 
 export default App;
