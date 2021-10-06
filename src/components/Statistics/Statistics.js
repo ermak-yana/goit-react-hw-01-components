@@ -2,7 +2,7 @@ import PropTypes from "prop-types";
 import Item from "./item";
 import css from "./Statistics.module.css";
 
-function Statistic({ title, stats }) {
+function Statistics({ title, stats }) {
   return (
     <section className={css.statistics}>
       {title && <h2 className={css.title}>{title}</h2>}
@@ -15,9 +15,9 @@ function Statistic({ title, stats }) {
   );
 }
 
-Statistic.propTypes = {
+Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.array,
 };
 
-export default Statistic;
+export default Statistics;
