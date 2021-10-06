@@ -1,6 +1,7 @@
 .item {
   padding: 10px 0px;
   display: flex;
+  text-align: center;
   flex-direction: column;
   width: 100px;
   align-items: center;
